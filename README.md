@@ -1,4 +1,4 @@
-# bleet
+# bleat
 
 This is an Android app that allows users to replace a logo with a picture of their choice using Haar Cascade object detection method. At this experimental stage, we’ve only included the logo of Burger King (for no particular reason). You can explore the code in the repository and enrich it, change it, copy it. 
 
