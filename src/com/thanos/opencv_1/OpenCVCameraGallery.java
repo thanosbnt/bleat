@@ -219,7 +219,6 @@ public class OpenCVCameraGallery extends ActionBarActivity implements CvCameraVi
 		
 		 			 Intent emailIntent = new Intent(Intent.ACTION_SEND);
 		        	 emailIntent.setType("message/rfc822");
-		//        	 emailIntent.putExtra(Intent.EXTRA_EMAIL  , new String[]{"votkaexete@gmail.com"});
 		        	 emailIntent.putExtra(Intent.EXTRA_SUBJECT, "breaking_the_monoform");
 		        	 emailIntent.putExtra(Intent.EXTRA_TEXT   , "body of email");
 		
