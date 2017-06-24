@@ -32,7 +32,7 @@ OpenCVCamera and OpenCVCameraGallery classes generally do the following:
 * Initialise the classifier which translates to loading the Burger King Haar Cascade xml file
 
 
-```
+``` java
 private void initializeOpenCVDependencies() {
       try {
          // Copy the resource into a temp file so OpenCV can load it
@@ -56,7 +56,7 @@ private void initializeOpenCVDependencies() {
       }
 ``` 
 * Using the classifier to detect the Burger king logo:
-```
+``` java
 MatOfRect burger_king = new MatOfRect();
  
      // Use the classifier to detect the logo. Play with the parameters to improve detection
@@ -68,7 +68,7 @@ MatOfRect burger_king = new MatOfRect();
 ``` 
 
 * Draw a rectangle around that logo and place the image choice
-```
+``` java
 // Save the logos in an array
 Rect[] burger_kingArray = burger_king.toArray();
  
