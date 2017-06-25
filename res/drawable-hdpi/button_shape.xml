@@ -27,8 +27,8 @@ android:startColor="#000000"
 android:endColor="#000000"
 />
 <size
-android:width="200dp"
-android:height="200dp"
+android:width="120dp"
+android:height="120dp"
 />
 <stroke 
     android:width="5dp"

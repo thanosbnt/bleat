@@ -18,7 +18,9 @@ import org.opencv.android.CameraBridgeViewBase.CvCameraViewListener;
 import org.opencv.core.Core;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
+import org.opencv.core.MatOfPoint2f;
 import org.opencv.core.MatOfRect;
+import org.opencv.core.Point;
 import org.opencv.core.Rect;
 import org.opencv.core.Scalar;
 import org.opencv.core.Size;
@@ -33,6 +35,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -160,6 +163,7 @@ public class OpenCVCameraGallery extends ActionBarActivity implements CvCameraVi
 	      if (cascadeClassifier != null) {
 	          cascadeClassifier.detectMultiScale(grayscaleImage, burger_king, 1.1,3,3,
 	                  new Size(absoluteLogoSize, absoluteLogoSize), new Size());
+
 	      }
 	      
 	      // Placeholder for the logos found
@@ -170,11 +174,13 @@ public class OpenCVCameraGallery extends ActionBarActivity implements CvCameraVi
 	      
 	      // Get the chosen image
 	      Bitmap bitmap = BitmapFactory.decodeFile("mnt/sdcard/votka.jpg");
-	      Utils.bitmapToMat(bitmap, bSel);
+	      Matrix matrix = new Matrix();
+	      matrix.postRotate(90);
+	      Bitmap rotatedBitmap = Bitmap.createBitmap(bitmap , 0, 0, bitmap .getWidth(), bitmap .getHeight(), matrix, true);
+	      Utils.bitmapToMat(rotatedBitmap, bSel);
 	      
 	      // scale it down
 	      Imgproc.resize(bSel, bSel, new Size(100, 100));
-	      
 	      // Placeholder matrix for the choice of image to be placed in burger king's place
 	      Mat b = new Mat();
 	      
@@ -198,6 +204,7 @@ public class OpenCVCameraGallery extends ActionBarActivity implements CvCameraVi
 			    
 			    // Place the image of our choice in the rectangle
 			    Mat sub  = inputFrame.submat(roi);
+
 			    Imgproc.cvtColor(sub, sub, Imgproc.COLOR_RGBA2GRAY);
 			    Imgproc.cvtColor(sub, sub, Imgproc.COLOR_GRAY2RGBA);
 			    b.copyTo(inputFrame.submat(roi));           

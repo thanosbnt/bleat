@@ -2104,9 +2104,13 @@ containing a value of this type.
         public static final int votka=0x7f020059;
     }
     public static final class id {
-        public static final int TextView01=0x7f0c005c;
-        public static final int TextView02=0x7f0c005d;
-        public static final int TextView03=0x7f0c005e;
+        public static final int TextView01=0x7f0c0057;
+        public static final int TextView02=0x7f0c0056;
+        public static final int TextView03=0x7f0c0058;
+        public static final int TextView04=0x7f0c0059;
+        public static final int TextView05=0x7f0c005a;
+        public static final int TextView06=0x7f0c005b;
+        public static final int TextView07=0x7f0c005d;
         public static final int action_bar=0x7f0c0048;
         public static final int action_bar_activity_content=0x7f0c0003;
         public static final int action_bar_container=0x7f0c0047;
@@ -2120,9 +2124,9 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0c0045;
         public static final int action_mode_bar_stub=0x7f0c0044;
         public static final int action_mode_close_button=0x7f0c0037;
-        public static final int action_settings=0x7f0c0065;
+        public static final int action_settings=0x7f0c0066;
         public static final int activity_chooser_view_content=0x7f0c0038;
-        public static final int activity_opencv_camera=0x7f0c005f;
+        public static final int activity_opencv_camera=0x7f0c0060;
         public static final int adjust_height=0x7f0c000c;
         public static final int adjust_width=0x7f0c000d;
         public static final int always=0x7f0c002b;
@@ -2133,8 +2137,8 @@ containing a value of this type.
         public static final int buyButton=0x7f0c0018;
         public static final int buy_now=0x7f0c001d;
         public static final int buy_with_google=0x7f0c001e;
-        public static final int cameraInit=0x7f0c0057;
-        public static final int camera_view=0x7f0c0060;
+        public static final int cameraInit=0x7f0c005c;
+        public static final int camera_view=0x7f0c0061;
         public static final int checkbox=0x7f0c0040;
         public static final int classic=0x7f0c0020;
         public static final int collapseActionView=0x7f0c002c;
@@ -2158,9 +2162,9 @@ containing a value of this type.
         public static final int icon=0x7f0c003d;
         public static final int ifRoom=0x7f0c002d;
         public static final int image=0x7f0c003a;
-        public static final int imageView1=0x7f0c0062;
-        public static final int imageView2=0x7f0c0063;
-        public static final int imageView3=0x7f0c0064;
+        public static final int imageView1=0x7f0c0063;
+        public static final int imageView2=0x7f0c0064;
+        public static final int imageView3=0x7f0c0065;
         public static final int listMode=0x7f0c0023;
         public static final int list_item=0x7f0c003c;
         public static final int match_parent=0x7f0c001a;
@@ -2169,7 +2173,7 @@ containing a value of this type.
         public static final int never=0x7f0c002e;
         public static final int none=0x7f0c000e;
         public static final int normal=0x7f0c0010;
-        public static final int photo=0x7f0c0061;
+        public static final int photo=0x7f0c0062;
         public static final int production=0x7f0c0015;
         public static final int progress_circular=0x7f0c0007;
         public static final int progress_horizontal=0x7f0c0008;
@@ -2196,11 +2200,8 @@ containing a value of this type.
         public static final int submit_area=0x7f0c0053;
         public static final int tabMode=0x7f0c0024;
         public static final int terrain=0x7f0c0012;
-        public static final int textView1=0x7f0c0056;
-        public static final int textView2=0x7f0c0058;
-        public static final int textView3=0x7f0c0059;
-        public static final int textView4=0x7f0c005a;
-        public static final int textView5=0x7f0c005b;
+        public static final int textView1=0x7f0c005e;
+        public static final int textView2=0x7f0c005f;
         public static final int title=0x7f0c003e;
         public static final int up=0x7f0c0001;
         public static final int useLogo=0x7f0c002a;
