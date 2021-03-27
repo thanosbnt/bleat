@@ -2,9 +2,13 @@
 
 (Breaking the) Monoform in Public Space” is a work  between a visual artist and a data scientist/developer. It is an open license prototype augmented reality camera application for mobile devices. The camera, with the use of real time image recognition and computer vision techniques, can identify commercial brands in the photographic frame of the user and give them the option to replace them with whatever they intend to. The user can select an image from their own archive and use it to replace the selected advertised space. Computer vision and image recognition is used today on the web, to categorize and auto-brand our user made images. In order to make the users data accessible and available for advertising purposes. Consequently, the user by uploading the image they made on social networks, can not only make a statement about the commercialization of both the virtual and physical public space, but also interfere with the process of advertising in social media. In addition, the user can think of the alternative possible use of the physical public space, re-imagine and create its image  by replacing the space now occupied by commercial advertisements with whatever they want. creating an image might seem immaterial in the physical world, but if we stop and think that this image is taking physical space in a real structure that is used as a storage somewhere and that after its creation its containing data have the potential to be used for profit that will eventually be measured in gold, then the act of changing the image of physical space in its virtual representation starts having a very material shape.
 
-Dashboard                     |  Data tools                  |
+In situ                     |  App view                 |
 :----------------------------:|:----------------------------:|
-![](assets/1.jpeg)        |![](assets/2.jpeg)    |
+![](assets/4.jpeg)        |![](assets/2.jpeg)    |
+
+In a semantics classifier                     |  How to                  |
+:----------------------------:|:----------------------------:|
+![](assets/1.jpeg)        |![](assets/3.jpeg)    |
 
 ## How it works
 There is a lot of research when it comes object detection from images and for a good reason too: it is a difficult task with many things to consider: Do we use global features such as the distribution of pixel values or local features such as the geometric properties of a subset of the image? Do we want the our recognition to be invariant to shape, scaling and brightness? The list goes on.
